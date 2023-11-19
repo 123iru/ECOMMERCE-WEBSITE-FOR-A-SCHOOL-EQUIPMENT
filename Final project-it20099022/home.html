@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="abc.css"/>
+<meta charset="utf-8">
+<title> school equipments </title>
+</head>
+
+<body>
+	  
+	 <div class="header">
+	 
+	<div class="container">
+	<div class ="navbar">
+		<div class ="logo">
+		 <img src=   "pictures/3.jfif" width=" 125" height="125"  >
+	</div>
+		<nav>
+			<ul id="MenuItems">
+		  <li><a href="login.php">Login </a></li>
+		  <li><a href=" home.html ">Home </a></li>
+		     
+   
+  
+			 
+  </ul>
+		</nav>
+		<img src="pictures/cad.png" width="30px" height="30px">
+		<img src= "pictures/menu.png"  class="menu-icon" onclick="menutoggle()">
+</div>
+	  <div class="row">
+			<div class="col-2">
+				<h1>All of your school equipments can be found in one location!</h1>
+				<p>An opportunity to choose for yourself different products from different products.</p>
+				<a href="login.php" class="btn">JOING NOW! &#8594; </a>
+			</div>
+			<div class="col-2">
+				<img src="pictures/img.jfif" width="785" height="330">
+			   </div>
+		</div>
+</div>
+	</div>
+	
+	<div class="categories">
+		<div class="small-container">
+		<div class="row">
+			<div class="col-3">
+			<img src="pictures/item/1.jfif">
+				</div>
+			<div class="col-3"> 
+			 <img src="pictures/item/2.jpg">
+				</div>
+			<div class="col-3"> 
+			<img src= "pictures/item/3.jpg">
+				</div>
+			<div class="col-3"> 
+			<img src="pictures/item/4.jpg">
+			</div>
+			<div class="col-3"> 
+			<img src="pictures/item/5.jpg">
+			</div>
+			<div class="col-3"> 
+			<img src= "pictures/item/6.webp">
+			</div>
+			<div class="col-3"> 
+			<img src= "pictures/item/7.jfif">
+			</div>
+			<div class="col-3"> 
+			<img src= "pictures/item/8.jpg">
+			</div>
+		</div>
+		
+		</div>
+	</div>
+	<script>
+		var MenuItems=documents.getElementById("MenuItems");
+		MenuItems.style.maxHeight="0px";
+		function menutoggle(){
+			if(MenuItems.style.maxHeight=="0px")
+				{
+	              MenuItems.style.maxHeight="200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight="0px";
+				}
+		}
+	</script>
+	
+	
+</body>
+</html>
+   
+   
